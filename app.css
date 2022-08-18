@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background-color: #151518;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    position: relative;
+    background-color: #1C1C1F;
+    padding: 25px 50px;
+    max-width: 500px;
+    height: calc(100vh - 77px);
+    display: grid;
+    grid-template-rows: 120px 1fr;
+}
+
+.input {
+    background-color: #32323680;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+textarea {
+    border: none;
+    border-style: none;
+    background-color: transparent;
+    padding: 0px 40px;
+    height: 53px;
+    color: azure;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+    color: #BEBEBE;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'ineter', 'sans-serif';
+}
+
+.post {
+    color: #323236;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    margin-left: auto;
+    width: fit-content;
+    display: block;
+}
+
+.posted_tweet {
+    background-color: #383838;
+    border-radius: 10px;
+    padding: 30px 25px;
+    color: white;
+    box-shadow: 0px 15px 18px rgba(0, 0, 0, 0.14), 0px 6.26664px 7.51997px rgba(0, 0, 0, 0.10064), 0px 3.35045px 4.02054px rgba(0, 0, 0, 0.083455), 0px 1.87823px 2.25388px rgba(0, 0, 0, 0.07), 0px 0.997515px 1.19702px rgba(0, 0, 0, 0.056545), 0px 0.415088px 0.498106px rgba(0, 0, 0, 0.0393604);
+}
+
+p {
+    line-height: 22.5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #BEBEBE;
+}
+
+nav {
+    padding: 20px 40px;
+    border-bottom: 3px solid;
+    border-color: #383838;
+}
+
+
+/* nav img {
+    margin: 3px 0 0 30px;
+} */
+
+
+/* :placeholder-shown {
+    display: flex;
+    justify-self: start;
+} */
+
+.options img {
+    height: 25px;
+    margin: 10px 0 0 330px;
+}
+
+.action-btns {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.bg_icons {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: -1;
+}
+
+.tweets {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: scroll;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.user_name {
+    line-height: 40px;
+    color: #D7D7D7;
+    font-size: 16px;
+    font-weight: 600;
+}
