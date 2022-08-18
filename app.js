@@ -4,9 +4,7 @@ const tweeted = document.getElementById('new_para')
 const posted_tweets = document.querySelector('.tweets')
 const text_area = document.querySelector('textarea')
 let content = tweet.value;
-// let database = ()=> { 
-// const div_data = document.querySelectorAll('div')
-// }
+
 
 
 const tweets = [{
